@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mood Playlist Generator</title>
+  <meta name="description" content="Tell it how you feel and pick a genre, and it builds a playlist from 114k songs using their audio features.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <p class="kicker">Mood playlist generator</p>
+    <h1>How are you <em>feeling?</em></h1>
+    <p class="sub">Describe your mood, pick a genre, and get a playlist matched on each song's positivity, energy, danceability and tempo.</p>
+  </header>
+
+  <form id="form" autocomplete="off">
+    <label class="field">
+      <span>In your own words</span>
+      <input id="feel" type="text" placeholder="e.g. happy, genre rap   ·   tired after the gym   ·   heartbroken but want to dance">
+    </label>
+
+    <div class="field">
+      <span>Mood <small class="muted">(pick up to 3, or let the text above choose)</small></span>
+      <div id="moods" class="chips" role="group" aria-label="Moods"></div>
+    </div>
+
+    <div class="row">
+      <label class="field grow">
+        <span>Genre</span>
+        <select id="genre"><option value="">Loading genres…</option></select>
+      </label>
+      <label class="field">
+        <span>Length</span>
+        <select id="size"><option>10</option><option selected>20</option><option>30</option><option>50</option></select>
+      </label>
+    </div>
+
+    <details id="tune">
+      <summary>Fine-tune</summary>
+      <div class="sliders">
+        <label><span>Positivity <b id="v-val"></b></span><input id="valence" type="range" min="0" max="100"></label>
+        <label><span>Energy <b id="v-en"></b></span><input id="energy" type="range" min="0" max="100"></label>
+        <label><span>Deep cuts ↔ Hits <b id="v-pop"></b></span><input id="popularity" type="range" min="0" max="100" value="60"></label>
+      </div>
+      <div class="toggles">
+        <div class="seg" role="radiogroup" aria-label="Goal">
+          <label><input type="radio" name="goal" value="match" checked><span>Match my mood</span></label>
+          <label><input type="radio" name="goal" value="lift"><span>Lift my mood</span></label>
+        </div>
+        <label class="check"><input id="clean" type="checkbox"> Clean only (no explicit)</label>
+      </div>
+    </details>
+
+    <button id="go" type="submit">Make my playlist</button>
+  </form>
+
+  <section id="result" hidden>
+    <div class="result-head">
+      <div>
+        <h2 id="title"></h2>
+        <p id="meta" class="muted"></p>
+      </div>
+      <div class="actions">
+        <button type="button" id="again" class="ghost">↻ Shuffle</button>
+        <button type="button" id="copy" class="ghost">Copy list</button>
+        <button type="button" id="csv" class="ghost">Download CSV</button>
+        <button type="button" id="share" class="ghost">Share link</button>
+      </div>
+    </div>
+
+    <div class="result-grid">
+      <ol id="list"></ol>
+      <aside class="panel">
+        <h3>Where your playlist sits</h3>
+        <p class="muted small">Every song in the genre plotted by positivity and energy. Your picks are highlighted, and the ring is your mood target.</p>
+        <div id="chart"></div>
+        <div class="legend"><span><i class="dot all"></i>Genre</span><span><i class="dot pick"></i>Your playlist</span><span><i class="ring"></i>Mood target</span></div>
+      </aside>
+    </div>
+  </section>
+
+  <p id="status" class="muted" role="status"></p>
+
+  <footer>
+    Song data: <a href="https://huggingface.co/datasets/maharshipandya/spotify-tracks-dataset">Spotify Tracks Dataset</a>
+    (114k tracks, BSD licence), built from Spotify's audio features. Song links open Spotify.
+    Built by <a href="https://github.com/ryanstormrage">ryanstormrage</a> · <a href="https://github.com/ryanstormrage/mood-playlist-generator">code</a>
+  </footer>
+</div>
+<script type="module" src="app.js"></script>
+</body>
+</html>
