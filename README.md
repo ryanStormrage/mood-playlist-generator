@@ -49,6 +49,12 @@ BSD licence: 114k tracks across 125 genres, collected with the Spotify Web API. 
 copies of the same song (keeping the most popular one) and splits the data by genre, so the page only downloads
 about 100 KB for the genre you pick.
 
+## Dataset quirks
+
+The genre labels come from the dataset, which pulled songs from Spotify genre searches, so some buckets are
+surprising. *Hip-hop* includes a lot of popular Punjabi and Indian hip-hop alongside Drake and Eminem, and *R&B*
+includes some Brazilian MPB. Moving the *Deep cuts ↔ Hits* slider toward Hits favors the best-known tracks.
+
 ## Ideas for next steps
 
 - Sign in with Spotify and save the playlist straight to your account (Spotify Web API, `playlist-modify` scope)

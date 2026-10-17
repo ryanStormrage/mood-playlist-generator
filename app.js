@@ -112,14 +112,15 @@ function distance(song, t, popPref) {
     const b = f === "tempo" ? t.tempo / 200 : t[f];
     d += w * (a - b) ** 2;
   }
-  d += 0.6 * (song.popularity / 100 - popPref) ** 2;   // hits vs deep cuts
+  d += 1.4 * (song.popularity / 100 - popPref) ** 2;   // hits vs deep cuts
   return Math.sqrt(d);
 }
 
 function generate(songs, t, { size, clean, popPref, seed }) {
   const rand = rng(seed);
   const pool = songs
-    .filter((s) => !(clean && s.explicit) && s.duration > 60 && s.duration < 600)
+    // drop very obscure songs unless you asked for deep cuts
+    .filter((s) => !(clean && s.explicit) && s.duration > 60 && s.duration < 600 && s.popularity >= popPref * 100 - 45)
     .map((s) => ({ s, d: distance(s, t, popPref) }))
     .sort((a, b) => a.d - b.d)
     .slice(0, Math.max(size * 5, 60));
