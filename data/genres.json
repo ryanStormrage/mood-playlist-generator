@@ -1,0 +1,572 @@
+[
+ {
+  "key": "acoustic",
+  "label": "Acoustic",
+  "count": 938
+ },
+ {
+  "key": "afrobeat",
+  "label": "Afrobeat",
+  "count": 952
+ },
+ {
+  "key": "alt-rock",
+  "label": "Alt Rock",
+  "count": 797
+ },
+ {
+  "key": "alternative",
+  "label": "Alternative",
+  "count": 667
+ },
+ {
+  "key": "ambient",
+  "label": "Ambient",
+  "count": 937
+ },
+ {
+  "key": "anime",
+  "label": "Anime",
+  "count": 946
+ },
+ {
+  "key": "black-metal",
+  "label": "Black Metal",
+  "count": 991
+ },
+ {
+  "key": "bluegrass",
+  "label": "Bluegrass",
+  "count": 976
+ },
+ {
+  "key": "blues",
+  "label": "Blues",
+  "count": 732
+ },
+ {
+  "key": "brazil",
+  "label": "Brazil",
+  "count": 988
+ },
+ {
+  "key": "breakbeat",
+  "label": "Breakbeat",
+  "count": 954
+ },
+ {
+  "key": "british",
+  "label": "British",
+  "count": 910
+ },
+ {
+  "key": "cantopop",
+  "label": "Cantopop",
+  "count": 955
+ },
+ {
+  "key": "chicago-house",
+  "label": "Chicago House",
+  "count": 954
+ },
+ {
+  "key": "children",
+  "label": "Children",
+  "count": 911
+ },
+ {
+  "key": "chill",
+  "label": "Chill",
+  "count": 937
+ },
+ {
+  "key": "classical",
+  "label": "Classical",
+  "count": 813
+ },
+ {
+  "key": "club",
+  "label": "Club",
+  "count": 947
+ },
+ {
+  "key": "comedy",
+  "label": "Comedy",
+  "count": 993
+ },
+ {
+  "key": "country",
+  "label": "Country",
+  "count": 605
+ },
+ {
+  "key": "dance",
+  "label": "Dance",
+  "count": 493
+ },
+ {
+  "key": "dancehall",
+  "label": "Dancehall",
+  "count": 851
+ },
+ {
+  "key": "death-metal",
+  "label": "Death Metal",
+  "count": 974
+ },
+ {
+  "key": "deep-house",
+  "label": "Deep House",
+  "count": 927
+ },
+ {
+  "key": "detroit-techno",
+  "label": "Detroit Techno",
+  "count": 958
+ },
+ {
+  "key": "disco",
+  "label": "Disco",
+  "count": 831
+ },
+ {
+  "key": "disney",
+  "label": "Disney",
+  "count": 945
+ },
+ {
+  "key": "drum-and-bass",
+  "label": "Drum & Bass",
+  "count": 954
+ },
+ {
+  "key": "dub",
+  "label": "Dub",
+  "count": 940
+ },
+ {
+  "key": "dubstep",
+  "label": "Dubstep",
+  "count": 934
+ },
+ {
+  "key": "edm",
+  "label": "EDM",
+  "count": 673
+ },
+ {
+  "key": "electro",
+  "label": "Electro",
+  "count": 673
+ },
+ {
+  "key": "electronic",
+  "label": "Electronic",
+  "count": 959
+ },
+ {
+  "key": "emo",
+  "label": "Emo",
+  "count": 922
+ },
+ {
+  "key": "folk",
+  "label": "Folk",
+  "count": 866
+ },
+ {
+  "key": "forro",
+  "label": "Forro",
+  "count": 966
+ },
+ {
+  "key": "french",
+  "label": "French",
+  "count": 960
+ },
+ {
+  "key": "funk",
+  "label": "Funk",
+  "count": 789
+ },
+ {
+  "key": "garage",
+  "label": "Garage",
+  "count": 955
+ },
+ {
+  "key": "german",
+  "label": "German",
+  "count": 788
+ },
+ {
+  "key": "gospel",
+  "label": "Gospel",
+  "count": 985
+ },
+ {
+  "key": "goth",
+  "label": "Goth",
+  "count": 949
+ },
+ {
+  "key": "grindcore",
+  "label": "Grindcore",
+  "count": 976
+ },
+ {
+  "key": "groove",
+  "label": "Groove",
+  "count": 924
+ },
+ {
+  "key": "grunge",
+  "label": "Grunge",
+  "count": 857
+ },
+ {
+  "key": "guitar",
+  "label": "Guitar",
+  "count": 973
+ },
+ {
+  "key": "happy",
+  "label": "Happy",
+  "count": 948
+ },
+ {
+  "key": "hard-rock",
+  "label": "Hard Rock",
+  "count": 850
+ },
+ {
+  "key": "hardcore",
+  "label": "Hardcore",
+  "count": 950
+ },
+ {
+  "key": "hardstyle",
+  "label": "Hardstyle",
+  "count": 978
+ },
+ {
+  "key": "heavy-metal",
+  "label": "Heavy Metal",
+  "count": 982
+ },
+ {
+  "key": "hip-hop",
+  "label": "Hip-Hop / Rap",
+  "count": 732
+ },
+ {
+  "key": "honky-tonk",
+  "label": "Honky Tonk",
+  "count": 820
+ },
+ {
+  "key": "house",
+  "label": "House",
+  "count": 660
+ },
+ {
+  "key": "idm",
+  "label": "IDM",
+  "count": 966
+ },
+ {
+  "key": "indian",
+  "label": "Indian",
+  "count": 974
+ },
+ {
+  "key": "indie",
+  "label": "Indie",
+  "count": 772
+ },
+ {
+  "key": "indie-pop",
+  "label": "Indie Pop",
+  "count": 793
+ },
+ {
+  "key": "industrial",
+  "label": "Industrial",
+  "count": 928
+ },
+ {
+  "key": "iranian",
+  "label": "Iranian",
+  "count": 955
+ },
+ {
+  "key": "j-dance",
+  "label": "J-Dance",
+  "count": 949
+ },
+ {
+  "key": "j-idol",
+  "label": "J-Idol",
+  "count": 919
+ },
+ {
+  "key": "j-pop",
+  "label": "J-Pop",
+  "count": 832
+ },
+ {
+  "key": "j-rock",
+  "label": "J-Rock",
+  "count": 941
+ },
+ {
+  "key": "jazz",
+  "label": "Jazz",
+  "count": 479
+ },
+ {
+  "key": "k-pop",
+  "label": "K-Pop",
+  "count": 901
+ },
+ {
+  "key": "kids",
+  "label": "Kids",
+  "count": 942
+ },
+ {
+  "key": "latin",
+  "label": "Latin",
+  "count": 580
+ },
+ {
+  "key": "latino",
+  "label": "Latino",
+  "count": 607
+ },
+ {
+  "key": "malay",
+  "label": "Malay",
+  "count": 974
+ },
+ {
+  "key": "mandopop",
+  "label": "Mandopop",
+  "count": 967
+ },
+ {
+  "key": "metal",
+  "label": "Metal",
+  "count": 825
+ },
+ {
+  "key": "metalcore",
+  "label": "Metalcore",
+  "count": 940
+ },
+ {
+  "key": "minimal-techno",
+  "label": "Minimal Techno",
+  "count": 956
+ },
+ {
+  "key": "mpb",
+  "label": "MPB",
+  "count": 973
+ },
+ {
+  "key": "new-age",
+  "label": "New Age",
+  "count": 968
+ },
+ {
+  "key": "opera",
+  "label": "Opera",
+  "count": 941
+ },
+ {
+  "key": "pagode",
+  "label": "Pagode",
+  "count": 945
+ },
+ {
+  "key": "party",
+  "label": "Party",
+  "count": 799
+ },
+ {
+  "key": "piano",
+  "label": "Piano",
+  "count": 868
+ },
+ {
+  "key": "pop",
+  "label": "Pop",
+  "count": 767
+ },
+ {
+  "key": "pop-film",
+  "label": "Pop (Film)",
+  "count": 988
+ },
+ {
+  "key": "power-pop",
+  "label": "Power Pop",
+  "count": 912
+ },
+ {
+  "key": "progressive-house",
+  "label": "Progressive House",
+  "count": 885
+ },
+ {
+  "key": "psych-rock",
+  "label": "Psych Rock",
+  "count": 874
+ },
+ {
+  "key": "punk",
+  "label": "Punk",
+  "count": 870
+ },
+ {
+  "key": "punk-rock",
+  "label": "Punk Rock",
+  "count": 908
+ },
+ {
+  "key": "r-n-b",
+  "label": "R&B",
+  "count": 872
+ },
+ {
+  "key": "reggae",
+  "label": "Reggae",
+  "count": 613
+ },
+ {
+  "key": "reggaeton",
+  "label": "Reggaeton",
+  "count": 596
+ },
+ {
+  "key": "rock",
+  "label": "Rock",
+  "count": 575
+ },
+ {
+  "key": "rock-n-roll",
+  "label": "Rock 'n' Roll",
+  "count": 857
+ },
+ {
+  "key": "rockabilly",
+  "label": "Rockabilly",
+  "count": 816
+ },
+ {
+  "key": "romance",
+  "label": "Romance",
+  "count": 856
+ },
+ {
+  "key": "sad",
+  "label": "Sad",
+  "count": 960
+ },
+ {
+  "key": "salsa",
+  "label": "Salsa",
+  "count": 935
+ },
+ {
+  "key": "samba",
+  "label": "Samba",
+  "count": 968
+ },
+ {
+  "key": "sertanejo",
+  "label": "Sertanejo",
+  "count": 973
+ },
+ {
+  "key": "show-tunes",
+  "label": "Show Tunes",
+  "count": 938
+ },
+ {
+  "key": "singer-songwriter",
+  "label": "Singer-Songwriter",
+  "count": 788
+ },
+ {
+  "key": "ska",
+  "label": "Ska",
+  "count": 960
+ },
+ {
+  "key": "sleep",
+  "label": "Sleep",
+  "count": 948
+ },
+ {
+  "key": "songwriter",
+  "label": "Songwriter",
+  "count": 788
+ },
+ {
+  "key": "soul",
+  "label": "Soul",
+  "count": 596
+ },
+ {
+  "key": "spanish",
+  "label": "Spanish",
+  "count": 920
+ },
+ {
+  "key": "study",
+  "label": "Study",
+  "count": 996
+ },
+ {
+  "key": "swedish",
+  "label": "Swedish",
+  "count": 856
+ },
+ {
+  "key": "synth-pop",
+  "label": "Synth Pop",
+  "count": 836
+ },
+ {
+  "key": "tango",
+  "label": "Tango",
+  "count": 932
+ },
+ {
+  "key": "techno",
+  "label": "Techno",
+  "count": 956
+ },
+ {
+  "key": "trance",
+  "label": "Trance",
+  "count": 912
+ },
+ {
+  "key": "trip-hop",
+  "label": "Trip-Hop",
+  "count": 929
+ },
+ {
+  "key": "turkish",
+  "label": "Turkish",
+  "count": 974
+ },
+ {
+  "key": "world-music",
+  "label": "World Music",
+  "count": 951
+ }
+]
